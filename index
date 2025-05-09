@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Double Joy - African Beaded Sandals</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Double Joy</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Cart <span id="cart-count">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Double Joy</h1>
+      <p>Authentic African Beaded Sandals. Handmade with love and tradition.</p>
+      <a href="#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop" class="shop">
+    <h2>Shop Beaded Sandals</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/zulu.jpg" alt="Zulu Sandals">
+        <h3>Zulu Beaded Sandals</h3>
+        <p>$40</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="c:\Users\Nuru\Downloads\WhatsApp Image 2023-06-23 at 12.25.07.jpg" alt="Maasai Sandals">
+        <h3>Maasai Warrior Flats</h3>
+        <p>$45</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="c:\Users\Nuru\Downloads\WhatsApp Image 2023-06-23 at 12.25.04.jpg" alt="Ankara Slides">
+        <h3>Ankara Summer Slides</h3>
+        <p>$35</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>Our Story</h2>
+    <p>Double Joy was founded to celebrate African culture through handmade beaded sandals. Each pair is a piece of art and history, created by women artisans across the continent. We aim to empower communities by turning culture into commerce.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Double Joy. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
